@@ -68,5 +68,6 @@ class LigneDeChamp {
         translate(this.pas * cos(angle + PI),this.pas * sin(angle + PI));
       }
       pop();
+      strokeWeight(1);
     }
   }
